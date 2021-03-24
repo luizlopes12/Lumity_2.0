@@ -1,4 +1,4 @@
-*{
+*, html{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -27,41 +27,19 @@ body{
     line-height: 18px;
     font-size: 1.2em;
 }
-/*Parte com as 4 categorias*/
-.categorias{
-    text-align: center;
+/*banner*/
+.banner{
     width: 100%;
-    color: #000000;
+    height: 560px;
+    overflow: hidden;
 }
-.categorias h2{
-    line-height: 30px;
-    padding-top: 20px;
-    height: 30px;
-    width: 150px;
+.banner img{
+    position: relative;
+    top: -120px;
+    width: 100%;
     margin: auto;
-    border-bottom: 2px solid #2e2e2e;
 }
-/*Fundo das categorias*/
-.fundo{
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    z-index: 0;
-    width: 100%;
-}
-.fundo1{
-    width: 46%;
-    height: 488px;
-    background-color: #2e2e2e;
-    clip-path: polygon(0 0, 0% 100%, 100% 100%);
-}
-.fundo2{
-    width: 46%;
-    height: 488px;
-    background-color: #2e2e2e;
-    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-}
-/*Preset dos intes box*/
+/*Preset dos itens box*/
 .menu{
     width: 90%;
     display: flex;
@@ -80,6 +58,7 @@ body{
 .menu li p{
     font-size: 1.5em;
 }
+
 /*Preset dos itens*/
 .item-menu{
     text-align: center;
@@ -136,7 +115,7 @@ body{
     text-align: center;
 }
 .todos-title h3{
-    font-size: 20px;
+    font-size: 30px;
     border-bottom: 2px solid #2e2e2e;
 }
 .todos-title p{
@@ -154,7 +133,7 @@ body{
     width: 97%;
     font-size: 18px;
     color: #808080;
-    margin: auto;
+    margin: 10px auto;
     word-wrap: break-word;
 }
 .itens-list a{
@@ -184,32 +163,77 @@ body{
     padding-top: 25px;
 }
 /*Itens pages presets*/
+.seta:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right: 10px solid white; 
+  }
+.voltar-btn{
+    text-decoration: none;
+    position: absolute;
+    top: 5px;
+    vertical-align: middle;
+    left: 5px;
+    font-size: 1.4em;
+    border-radius: 200px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    width: 120px;
+    height: 20px;
+    line-height: 20px;
+    background-color: rgb(255, 64, 64);
+    color: #ffffff;
+}
 .itens-pages{
     width: 80%;
+    height: 1000px;
     border-radius: 20px;
-    margin: 50px auto;
+    margin: 60px auto;
     background-color: white;
 }
 .item-image-item-page img{
-    height: 600px;
+    height: 575px;
     margin: auto;
     transition: all .1s linear;
 }
 .item-image-item-page img:hover{
-    height: 615px;
+    height: 600px;
 }
 .item-image-item-page{
-    height: 1000px;
     display: flex;
     flex-direction: column;
 }
 .item-image-item-page p{
-
+    font-size: 1.5em;
     width: 60%;
-    margin: 10px auto;
+    margin: 50px auto;
     word-wrap: break-word;
 }
-
+.item-page-btn{
+        text-align: center;
+        background-color: #26b926;
+        height: 49px;
+        width: 179px;
+        font-size: 1.25em;
+        border-radius: 20px;
+        line-height: 49px;
+        margin: auto;
+        text-decoration: none;
+        color: #ffffff;
+        transition: all 0.1s linear;
+    
+}
+.item-page-btn:hover{
+    background-color: #ffffff;
+    border: 1px dashed #26b926cb;
+    color: #26b926;
+}
 
 
 
