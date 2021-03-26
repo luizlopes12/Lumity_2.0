@@ -405,6 +405,13 @@ footer h5{
 }
 
 @media(max-width: 1366px){
+    .banner{
+        height: 430px;
+    }
+    .banner img{
+
+        top: -80px;
+    }
     .desc{
         display: none;
     }
