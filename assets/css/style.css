@@ -313,13 +313,74 @@ body{
 .relacionados li{
     height: 400px;
 }
+.como-comprar{
+    display: flex;
+    justify-content: center;
+    line-height: 150px;
+    font-size: 30px;
+    width: 100%;
+    height: 100px;
+    font-weight: 600;
+}
+.como-comprar-main{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    border-radius: 20px;
+    background-color: #ffffff;
+    height: 1200px;
+}
+.como-comprar-coluna1{
+    display: flex;
+    padding: 20px;
+    width: 50%;
+    flex-direction: column;
+}
+.como-comprar-coluna1 p{
+    margin: 50px auto;
+    font-size: 1.5em;
+    text-align: center;
+    width: 60%;
+}
+.comprar-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.como-comprar-coluna1 img{
+    height: 350px;
+}
+.como-comprar-coluna2{
+    display: flex;
+    margin: 150px auto;
+    width: 50%;
+    flex-direction: column;
+}
+.como-comprar-coluna2 p{
+    margin: 50px auto;
+    font-size: 1.5em;
+    text-align: center;
+    width: 60%;
+}
+.comprar-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.como-comprar-coluna2 img{
+    height: 350px;
+}
+.snoopy{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
 
-
-
-
-
-
-
+.snoopy-gif{
+    margin: 20px 0;
+}
 
 
 
